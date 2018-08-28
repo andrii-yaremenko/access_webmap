@@ -128,7 +128,7 @@ legend_ae.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [10, 20, 30],
         labels = ['<strong> Time Accessibility. Proposals</strong>'],
-        data_list = [' - 29kk p. (74,1%), + 5,5%', ' - 36,1kk p. (92,4%), + 6,4%', '  - 38,6kk p. (98,8%), + 1,8%'],
+        data_list = [' - 28,4kk p. (76,1%), + 4,1%', ' - 34,7kk p. (93,2%), + 4,6%', '  - 36,9kk p. (99,1%), + 1,5%'],
         from, to;
 
     for (var i = 0; i < grades.length; i++) {
@@ -154,7 +154,7 @@ legend_ar.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [10, 20, 30],
         labels = ['<strong> Time Accessibility. Current State </strong>'],
-        data_list_ar = [' - 26,9kk p. (68,5%)', ' - 33,6kk p. (86%)', ' - 37,9kk p. (97%)'],
+        data_list_ar = [' - 26,8kk p. (72,0%)', ' - 33,0kk p. (86,6%)', ' - 36,4kk p. (97,6%)'],
         from, to;
 
     for (var i = 0; i < grades.length; i++) {
